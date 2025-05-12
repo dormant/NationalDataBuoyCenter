@@ -37,10 +37,10 @@ New yearly and monthly files have to be updated manually from:
 
 * This must be done if you notice gaps in plotted data.
 * Download yearly and monthly files not in *./data* from the **Standard meteorological data** links.
-* All but one of the files can be uncompressed and moved to data.
+* All but one of the files can be uncompressed and moved to *./data*.
 * The most recent monthly file has to be downloaded using *Save As* in your browser. It should then be renamed by adding the numerical month and year to the end of the file name.
 ```
-mv 41040.txt 4104032025.txt
+$ mv 41040.txt 4104032025.txt
 ```
 * Once a yearly file is present, all monthly files for that year should be deleted.
 
