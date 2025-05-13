@@ -49,8 +49,8 @@ $ mv 41040.txt 4104032025.txt
 
 | Script       | Function |
 | -------------| -------------------|
-| *getAll.sh*   | Fetches last 45 days of data and updates local *all*.txt* text files.|
-| *getRealTime.sh*   | Fetches real-time data (last 5 days) and updates local *rt*.txt* text files.|
+| *getAll.sh*   | Fetches last 45 days of data and updates local *all\*.txt* text files.|
+| *getRealTime.sh*   | Fetches real-time data (last 5 days) and updates local *rt\*.txt* text files.|
 | *plot_sea_state_RealTime.m* | Creates plots of last day and last 5 days for each buoy.|
 
 
