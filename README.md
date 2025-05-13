@@ -4,13 +4,16 @@ Collect NOAA ocean buoy data, for as long as Trump allows it.
 
 ## Description
 
+* Data and scripts are in */home/seisan/data/weather/NationalDataBuoyCenter*.
+* Data description: https://www.ndbc.noaa.gov/measdes.shtml
+
 We use data from three NDBC buoys.
 
 * Station 42060 - Caribbean Valley: https://www.ndbc.noaa.gov/station_page.php?station=42060
 * Station 41040 - NORTH EQUATORIAL ONE: https://www.ndbc.noaa.gov/station_page.php?station=41040
 * Station 41044 - NE ST MARTIN: https://www.ndbc.noaa.gov/station_page.php?station=41044
-* Data description: https://www.ndbc.noaa.gov/measdes.shtml
-* Data and scripts are in */home/seisan/data/weather/NationalDataBuoyCenter*.
+
+The wave direction and height data appear to have missing values compared to the wind direction and speed data and can be seen in the one-day plots (eg http://webobs.mvo.ms:8080/mvofls2/monitoring_data/weather_plots/NDBC_41040-last_1_days.png). The reason for this is not known.
 
 ## Updating data
 
